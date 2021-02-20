@@ -1,0 +1,301 @@
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+
+}
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+  font-family: 'Merriweather', serif;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+button a{
+  color:#c9cbff !important;
+  text-decoration: none !important;
+}
+.header-image{
+  width:50%;
+  border-radius: 8px;
+}
+.partners{
+  min-width: 70%;
+}
+/* navbar-section */
+.navbar {
+  background-color: #00587a;
+  padding: 0;
+}
+.navbrand {
+  padding-left: 9%;
+  color:#fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.heading-row {
+  padding-top: 50px;
+}
+.navbrand img {
+  padding-bottom: 2px;
+}
+.brand-name {
+  margin-left: 5px;
+  margin-bottom: 0;
+
+}
+.navigation {
+  color:#fff;
+  background-color: #00587a;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom:2%;
+}
+.header li {
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+/* title-section */
+.title {
+  background-color: #00587a;
+  text-align: center;
+  color: #fff;
+}
+.title h1,.title p  {
+  text-align: left;
+}
+.title h1 {
+  font-size: 4rem;
+}
+.title p {
+  margin-left: 5px;
+  font-size: 1rem;
+}
+.heading {
+  padding: 3% 0 10% 20%;
+}
+.image-container {
+  padding-bottom: 2%;
+}
+/* .header-image {
+  border-radius: 8px;
+} */
+.enquiry-button {
+  margin-bottom: 10px;
+}
+/* to hide button for large display */
+.enquiry-button2 {
+  display: none;
+  margin: 2%;
+}
+
+/* feature-section */
+.features {
+  color: #393e46;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.feature-icons {
+  padding: 5%;
+}
+.features p {
+  color: gray;
+}
+/* service-section */
+.services {
+  padding-bottom: 5%;
+  text-align: center;
+  color:#fff;
+  background-color: #00587a;
+}
+.services h1 {
+  padding-top: 3%;
+}
+.loans {
+  margin: 4% auto;
+}
+.loan-icon:hover {
+  color: #393e46;
+}
+.other-services {
+text-align: center;
+margin-bottom: 5%;
+}
+.other {
+  text-align: left;
+  padding-left: 40%;
+}
+.other-services h1 {
+  margin:3% auto;
+}
+.other-services h1,.other h2 {
+  color:#393e46;
+}
+.other h2,.other h4 {
+  margin-top: 20px;
+}
+.other h4 {
+  color:gray;
+}
+
+.other button {
+  margin: 5%;
+  text-align: center;
+}
+ /* reviews-section */
+ .reviews{
+   text-align: center;
+   background-color: #00587a;
+   margin-top:10px;
+
+ }
+ .reactions {
+   padding-bottom: 5%;
+ }
+.reviews h2{
+  color:#fff;
+  padding:2%;
+}
+.reviews p ,.reviews h3, .reviews i {
+  color: #d3e0ea;
+}
+/* partner-section */
+.partners {
+  text-align: center;
+}
+.partners h1 {
+  color: #393e46;
+ margin: 5% auto;
+}
+.p-logo img {
+  margin-bottom: 30px;
+  width: 20%;
+}
+.contact {
+  color: #d3e0ea;
+   padding: 2% 5%;
+
+  background-color: #00587a;
+  margin-bottom: 0;
+}
+.table2 {
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 100%;
+}
+.time {
+  margin-left: 40%;
+}
+.footer  {
+  margin-top: 10px;
+  text-align: center;
+}
+.footer p {
+  font-size:0.75rem;
+}
+
+@media only screen and (max-width:700px) {
+  html{
+    font-size: 15px;
+  }
+  li a{
+    font-size: 1rem;
+  }
+  .navbar {
+    overflow: hidden;
+  }
+  #navbar-container {
+    padding: 5px 10px;
+  }
+  .navigation .navbrand {
+    padding-left: 0%;
+    font-size: 1.2rem;
+  }
+  .heading-row {
+    padding-top: 50px;
+  }
+  .enquiry-button2 {
+    display: inline-block;
+    text-align: center;
+  }
+  .enquiry-button1 {
+    display: none;
+  }
+  .heading {
+    padding: 0;
+  }
+  .heading h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .heading p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+   .header-image  {
+    border-radius: 8px;
+    width: 80%;
+
+  }
+  .features h1 {
+    font-size: 1.5rem;
+  }
+  .features h3 {
+    font-size: 1rem;
+  }
+  .services h1 {
+    font-size: 1.5rem;
+  }
+  .services h2 {
+    font-size: 1rem;
+  }
+  .other {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .other-services h1{
+    font-size: 1.5rem;
+  }
+  .other-services h2{
+    font-size: 1.25rem;
+  }
+  .other-services h4 {
+    font-size: 1rem;
+  }
+  .reviews h2 {
+    font-size: 1.5rem;
+  }
+  .reviews h3 {
+    font-size: 1rem;
+   }
+  .reviews p {
+    font-size: 0.75rem;
+  }
+  .partners h1 {
+    font-size: 1.5rem;
+  }
+  .partners p-logo {
+    width:50%;
+    display: inline-block;
+
+  }
+  .contact {
+    text-align: left;
+  }
+  .contact-adress {
+
+  }
+  .address p {
+    font-size: 0.90rem;
+  }
+  .time {
+    margin-left: 0;
+  }
+}
